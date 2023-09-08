@@ -2,6 +2,8 @@
 
 #I developer Sudoku(9x9 Gird) by using Javascript
 
+#Ignore main.c
+
 There are two modes.
 "Easy", "Medium", "Hard"
 
