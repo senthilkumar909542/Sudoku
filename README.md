@@ -1,66 +1,61 @@
-# Sudoku
-I developed a Sudoku game on my winning C program without using any inbuilt functions.
+#Sudoku
+
+#I developer Sudoku(9x9 Gird) by using Javascript
+
+There are two modes.
+"Easy", "Medium", "Hard"
 
 Step 1:
-I initialized the array with random numbers.
-Enter your number, row, columns
-
-<p>
------------------------ <br>
-| 0 0 0 | 0 0 0 | 0 7 0  <br>
-| 0 0 0 | 0 0 0 | 0 0 1  <br>
-| 0 0 0 | 0 0 0 | 0 0 0  <br>
------------------------ <br>
-| 0 0 0 | 0 0 0 | 0 0 0  <br>
-| 0 0 2 | 0 0 0 | 0 0 8  <br>
-| 4 0 0 | 0 0 0 | 0 0 0  <br>
------------------------<br>
-| 0 0 3 | 0 0 0 | 0 0 0  <br>
-| 0 5 0 | 0 0 0 | 0 0 0  <br>
-| 0 0 0 | 0 0 9 | 0 0 0  <br>
+Set the level you want
+next click start button to start the game
 <br>
-Enter the number & position(row and column):1 0 0  <br>
------------------------ <br>
-| 1 0 0 | 0 0 0 | 0 7 0 <br>
-| 0 0 0 | 0 0 0 | 0 0 1 <br>
-| 0 0 0 | 0 0 0 | 0 0 0 <br>
------------------------ <br>
-| 0 0 0 | 0 0 0 | 0 0 0 <br>
-| 0 0 2 | 0 0 0 | 0 0 8 <br>
-| 4 0 0 | 0 0 0 | 0 0 0 <br>
------------------------<br>
-| 0 0 3 | 0 0 0 | 0 0 0 <br>
-| 0 5 0 | 0 0 0 | 0 0 0 <br>
-| 0 0 0 | 0 0 9 | 0 0 0 <br>
 <br>
-Enter the number & position(row and column):<br>
-
-
-
-
-Step 2:
-If you made any mistake, it will show what mistake you made, and your chance count will be decreased.
-
+<img>
+<img width="337" alt="image" src="https://github.com/senthilkumar909542/Sudoku/assets/56290175/ac6706d7-fce4-47ce-9f0a-b92fd3735842">
+</img>
 <br>
------------------------<br>
-| 0 0 0 | 0 0 0 | 0 7 0 <br>
-| 0 0 0 | 0 0 0 | 0 0 1 <br>
-| 0 0 0 | 0 0 0 | 0 0 0 <br>
------------------------<br>
-| 0 0 0 | 0 0 0 | 0 0 0 <br>
-| 0 0 2 | 0 0 0 | 0 0 8 <br>
-| 4 0 0 | 0 0 0 | 0 0 0 <br>
------------------------<br>
-| 0 0 3 | 0 0 0 | 0 0 0 <br>
-| 0 5 0 | 0 0 0 | 0 0 0 <br>
-| 0 0 0 | 0 0 9 | 0 0 0 <br>
+<hr>
+#Easy Level
 <br>
-Enter the number & position(row and column):7 0 0 <br>
+<img>
+<img width="315" alt="image" src="https://github.com/senthilkumar909542/Sudoku/assets/56290175/99bac4e5-0c36-4f25-b41d-be14d3000b3d">
+</img>
 <br>
-Duplicate occurs in row!!<br>
-Remaining chance:2<br>
+<hr>
+#Hard Level
 <br>
+<img>
+<img width="336" alt="image" src="https://github.com/senthilkumar909542/Sudoku/assets/56290175/db20c858-b8a9-4fd9-bd28-79cfb8584420">
+</img>
+<br>
+<hr>
 
-</p>
+If you enter the wrong number the chance will be decrease.
+Three chance only
+
+<img>
+
+<img width="354" alt="image" src="https://github.com/senthilkumar909542/Sudoku/assets/56290175/782afd68-cee6-4b02-b570-659dab896a19">
 
 
+</img>
+<br>
+<hr>
+
+#In console panel you can see the winning pattern
+<br>
+<img>
+<img width="960" alt="image" src="https://github.com/senthilkumar909542/Sudoku/assets/56290175/11453769-8082-4d77-b216-e77819f4c0ba">
+
+
+</img>
+<br>
+<hr>
+#And also you can see the error you made in game
+<br>
+<img>
+
+
+<img width="960" alt="image" src="https://github.com/senthilkumar909542/Sudoku/assets/56290175/4b1dc860-1d06-406c-922b-b865492ae247">
+
+</img>
