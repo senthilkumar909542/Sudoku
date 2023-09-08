@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #213555;
+}
+.permanent {
+  background-color: #b8c9ca;
+}
+
+.sudoko > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 25px;
+  cursor: pointer;
+}
+.sudoko {
+  height: 360px;
+  width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sudoko > div:hover {
+  background-color: #ebe2bd;
+}
+.sudoko > div:active {
+  background-color: #dbd4b9;
+}
+
+.sudoko,
+button,
+input {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  font-size: 16px;
+  background-color: #4f709c;
+  border: none;
+  color: black;
+  border-radius: 10px;
+}
+
+button:active {
+  background-color: #5e7ba0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+#input {
+  height: 30px;
+  width: 200px;
+  border: 1px solid black;
+  outline: none;
+}
+
+#input[type="number"] {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.red {
+  background-color: #ffffdd;
+}
+
+div.first-row {
+  border-top: 2px solid black;
+}
+
+div.inner-bottom {
+  border-bottom: 2px solid black;
+}
+
+div.right-border {
+  border-right: 2px solid black;
+}
+
+div.left-border {
+  border-left: 2px solid black;
+}
+
+div.last-row {
+  border-bottom: 2px solid black;
+}
+
+.won {
+  background-color: #64CCC5;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="">Sudoku</h1>
+        <h1 id="header">Let's Play</h1>
+
+        <div>
+            <button class="level" id="easy">Easy</button>
+            <button class="level" id="medium">Medium</button>
+            <button class="level" id="hard">Hard</button>
+        </div>
+        <div id="button">
+            <button type="start" onclick="start()">Start</button>
+            <button type="reset" onclick="restart()">Restart</button>
+        </div>
+
+
+        <div class="sudoko">
+            <div class="box 00 first-row left-border" id="00"></div>
+            <div class="box 01 first-row" id="01"></div>
+            <div class="box 02 first-row" id="02"></div>
+            <div class="box 03 first-row" id="03"></div>
+            <div class="box 04 first-row" id="04"></div>
+            <div class="box 05 first-row" id="05"></div>
+            <div class="box 06 first-row" id="06"></div>
+            <div class="box 07 first-row" id="07"></div>
+            <div class="box 08 first-row" id="08"></div>
+
+            <div class="box 10 left-border" id="10"></div>
+            <div class="box 11" id="11"></div>
+            <div class="box 12" id="12"></div>
+            <div class="box 13" id="13"></div>
+            <div class="box 14" id="14"></div>
+            <div class="box 15" id="15"></div>
+            <div class="box 16" id="16"></div>
+            <div class="box 17" id="17"></div>
+            <div class="box 18" id="18"></div>
+
+            <div class="box 20 left-border" id="20"></div>
+            <div class="box 21" id="21"></div>
+            <div class="box 22" id="22"></div>
+            <div class="box 23" id="23"></div>
+            <div class="box 24" id="24"></div>
+            <div class="box 25" id="25"></div>
+            <div class="box 26" id="26"></div>
+            <div class="box 27" id="27"></div>
+            <div class="box 28" id="28"></div>
+
+            <div class="box 30 left-border" id="30"></div>
+            <div class="box 31" id="31"></div>
+            <div class="box 32" id="32"></div>
+            <div class="box 33" id="33"></div>
+            <div class="box 34" id="34"></div>
+            <div class="box 35" id="35"></div>
+            <div class="box 36" id="36"></div>
+            <div class="box 37" id="37"></div>
+            <div class="box 38" id="38"></div>
+
+            <div class="box 40 left-border" id="40"></div>
+            <div class="box 41" id="41"></div>
+            <div class="box 42" id="42"></div>
+            <div class="box 43" id="43"></div>
+            <div class="box 44" id="44"></div>
+            <div class="box 45" id="45"></div>
+            <div class="box 46" id="46"></div>
+            <div class="box 47" id="47"></div>
+            <div class="box 48" id="48"></div>
+
+            <div class="box 50 left-border" id="50"></div>
+            <div class="box 51" id="51"></div>
+            <div class="box 52" id="52"></div>
+            <div class="box 53" id="53"></div>
+            <div class="box 54" id="54"></div>
+            <div class="box 55" id="55"></div>
+            <div class="box 56" id="56"></div>
+            <div class="box 57" id="57"></div>
+            <div class="box 58" id="58"></div>
+
+            <div class="box 60 left-border" id="60"></div>
+            <div class="box 61" id="61"></div>
+            <div class="box 62" id="62"></div>
+            <div class="box 63" id="63"></div>
+            <div class="box 64" id="64"></div>
+            <div class="box 65" id="65"></div>
+            <div class="box 66" id="66"></div>
+            <div class="box 67" id="67"></div>
+            <div class="box 68" id="68"></div>
+
+            <div class="box 70 left-border" id="70"></div>
+            <div class="box 71" id="71"></div>
+            <div class="box 72" id="72"></div>
+            <div class="box 73" id="73"></div>
+            <div class="box 74" id="74"></div>
+            <div class="box 75" id="75"></div>
+            <div class="box 76" id="76"></div>
+            <div class="box 77" id="77"></div>
+            <div class="box 78" id="78"></div>
+
+            <div class="box 80 last-row left-border" id="80"></div>
+            <div class="box 81 last-row" id="81"></div>
+            <div class="box 82 last-row" id="82"></div>
+            <div class="box 83 last-row" id="83"></div>
+            <div class="box 84 last-row" id="84"></div>
+            <div class="box 85 last-row" id="85"></div>
+            <div class="box 86 last-row" id="86"></div>
+            <div class="box 87 last-row" id="87"></div>
+            <div class="box 88 last-row" id="88"></div>
+
+
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+
+
+
+</body>
+
+</html>
